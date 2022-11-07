@@ -1,0 +1,122 @@
+
+/*
+rgb(8,4,33) rgb(149,138,250) rgb(68,0,89) rgb(247,123,254) rgb(99,0,201) rgb(92,197,252) rgb(199,13,250) rgb(212,194,235) */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body.body-background{
+    /*background-image: url(/web/blockchain-website/images/anasayfa7.png);*/
+    background-color: black;
+    /*#111*/
+}
+
+
+/*navbar color if fixed-top??
+
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top{
+    background-color: rgb(8,4,33);
+}
+*/
+
+.header{
+   /* background-image: url(/web/blockchain-website/images/anasayfa5.png);*/
+    /*background-position: top;*/
+    padding-bottom: 200px;
+}
+
+.navbar-brand img{
+    width: 300px;
+}
+
+.active-home{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+
+li.nav-item{
+    font-family: 'Arimo', sans-serif;;
+}
+
+.banner{
+    margin-top: 8%;
+    color: #fff;
+}
+
+.banner h1{
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+/*---------HAKKIMIZDA---------*/
+
+/*.service{
+    background-color:rgb(151,136,241);
+}*/
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.subtitle{
+    color: #fff;
+    text-align: center;  
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+
+/*---------ETKİNLİKLER---------*/
+/*
+.etkinlikler{
+    margin-top:-20px;
+}
+
+.title-2{
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+}
+*/
+/*
+rgb(8,4,33) rgb(149,138,250) rgb(68,0,89) rgb(247,123,254) rgb(99,0,201) rgb(92,197,252) rgb(199,13,250) rgb(212,194,235) */
+
+/*---------KONUSMACILAR---------*/
+img.rounded-circle{
+    border: 2px solid rgb(92,197,252);
+}
+hr.mb-5{
+    color: #fff;
+}
+
+h2.my-5.h2{
+    color: #fff;
+}
+
+
+/*---------SPONSORLAR---------*/
+
+.sponsorlar{
+    margin-top: 100px;
+}
+
+/*---------İLETİSİM---------*/
+.iletisim{
+    margin-top: 100px;
+}
