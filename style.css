@@ -1,29 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
+@media screen and (max-width: 992px) {
+
+   .sponsorfotolari{
+    width: 300px;
+    height: 100px;
+    margin-top: 100px;
+   } 
+
+   body.body-background{
+    /*background-image: url(/web/blockchain-website/images/anasayfa7.png);*/
+    background-position: center;
+   }
+}
 /*
 rgb(8,4,33) rgb(149,138,250) rgb(68,0,89) rgb(247,123,254) rgb(99,0,201) rgb(92,197,252) rgb(199,13,250) rgb(212,194,235) */
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
+.textdec{
+    text-decoration: none;
+}
 
 body.body-background{
-    /*background-image: url(/web/blockchain-website/images/anasayfa7.png);*/
-    background-color: black;
-    /*#111*/
+    background-color:#0f0e13;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
-/*navbar color if fixed-top??
-
-nav.navbar.navbar-expand-lg.navbar-dark.fixed-top{
-    background-color: rgb(8,4,33);
+.colorfulspan{
+    background: linear-gradient(180deg,transparent 54%,
+    rgb(99,0,201)
+    100%);
 }
-*/
 
 .header{
-   /* background-image: url(/web/blockchain-website/images/anasayfa5.png);*/
-    /*background-position: top;*/
     padding-bottom: 200px;
 }
 
@@ -45,7 +74,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.fixed-top{
 }
 
 li.nav-item{
-    font-family: 'Arimo', sans-serif;;
+    font-family: 'Arimo', sans-serif;
 }
 
 .banner{
@@ -65,6 +94,11 @@ li.nav-item{
     background-color:rgb(151,136,241);
 }*/
 
+.dateLocation{
+    color: white;
+    font-size: 20px;
+}
+
 .title{
     color: #fff;
     text-align: center;
@@ -77,8 +111,13 @@ li.nav-item{
     text-align: center;  
     font-size: 18px;
     padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: -100px;
 }
 
+.imgbottom{
+    margin-top: -30px;
+}
 
 /*---------ETKİNLİKLER---------*/
 /*
@@ -100,6 +139,7 @@ rgb(8,4,33) rgb(149,138,250) rgb(68,0,89) rgb(247,123,254) rgb(99,0,201) rgb(92,
 /*---------KONUSMACILAR---------*/
 img.rounded-circle{
     border: 2px solid rgb(92,197,252);
+    margin-top: -100px;
 }
 hr.mb-5{
     color: #fff;
@@ -109,14 +149,26 @@ h2.my-5.h2{
     color: #fff;
 }
 
-
 /*---------SPONSORLAR---------*/
 
 .sponsorlar{
     margin-top: 100px;
 }
 
+.sponsorinfo{
+    margin-top:50px ;
+    text-align: center;
+}
+
 /*---------İLETİSİM---------*/
 .iletisim{
     margin-top: 100px;
+}
+
+#n-iletisim{
+    background-color: radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%);
+}
+
+#copyright{
+    background-color:radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%),
 }
